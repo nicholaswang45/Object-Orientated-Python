@@ -52,3 +52,6 @@ class Undergrad(Student):
   def printMembers(cls):
     SchoolMember.printMembers()
     print("and {0} undergrads".format(Undergrad.undergrads))
+
+class Gradstudent(Student):
+  pass
