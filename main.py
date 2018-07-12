@@ -16,6 +16,7 @@ def main():
 	for person in myList:
 		person.printMember()
 	Student.printMembers()
+	Teacher.printMembers()
 	Undergrad.printMembers()
 
 	input()
